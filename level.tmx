@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="220" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="monster_1" tilewidth="94" tileheight="107">
+  <image source="img/monster_1.png" trans="ff00ff" width="94" height="107"/>
+ </tileset>
+ <tileset firstgid="2" name="monster_2" tilewidth="65" tileheight="89">
+  <image source="img/monster_2.png" trans="ff00ff" width="65" height="89"/>
+ </tileset>
+ <tileset firstgid="3" name="monster_3" tilewidth="87" tileheight="102">
+  <image source="img/monster_3.png" trans="ff00ff" width="87" height="102"/>
+ </tileset>
+ <tileset firstgid="4" name="star" tilewidth="55" tileheight="55">
+  <image source="img/star.png" trans="ff00ff" width="55" height="55"/>
+ </tileset>
+ <tileset firstgid="5" name="tramp" tilewidth="58" tileheight="123">
+  <image source="img/tramp.png" trans="ff00ff" width="58" height="123"/>
+ </tileset>
+ <objectgroup name="monster1" width="220" height="20">
+  <object gid="1" x="592" y="282"/>
+  <object gid="1" x="1240" y="241"/>
+  <object gid="1" x="2471" y="287"/>
+ </objectgroup>
+ <objectgroup name="monster2" width="220" height="20">
+  <object gid="2" x="1704" y="283"/>
+  <object gid="2" x="1709" y="192"/>
+  <object gid="2" x="2772" y="299"/>
+  <object gid="2" x="3134" y="300"/>
+  <object gid="2" x="3136" y="206"/>
+ </objectgroup>
+ <objectgroup name="monster3" width="220" height="20">
+  <object gid="3" x="2116" y="296"/>
+  <object gid="3" x="2196" y="300"/>
+  <object gid="3" x="2572" y="109"/>
+  <object gid="3" x="2620" y="199"/>
+ </objectgroup>
+ <objectgroup name="star" width="220" height="20">
+  <object gid="4" x="845" y="283"/>
+  <object gid="4" x="1573" y="280"/>
+  <object gid="4" x="401" y="273"/>
+  <object gid="4" x="1235" y="59"/>
+  <object gid="4" x="2172" y="169"/>
+  <object gid="4" x="2502" y="107"/>
+  <object gid="4" x="2820" y="71"/>
+  <object gid="4" x="2942" y="154"/>
+  <object gid="4" x="3073" y="70"/>
+  <object gid="4" x="3186" y="86"/>
+  <object gid="4" x="3236" y="163"/>
+ </objectgroup>
+ <objectgroup name="tramp" width="220" height="20">
+  <object gid="5" x="1049" y="289"/>
+  <object gid="5" x="2044" y="296"/>
+  <object gid="5" x="3045" y="305"/>
+ </objectgroup>
+</map>
