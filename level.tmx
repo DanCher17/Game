@@ -12,8 +12,8 @@
  <tileset firstgid="4" name="star" tilewidth="55" tileheight="55">
   <image source="img/star.png" trans="ff00ff" width="55" height="55"/>
  </tileset>
- <tileset firstgid="5" name="tramp" tilewidth="58" tileheight="123">
-  <image source="img/tramp.png" trans="ff00ff" width="58" height="123"/>
+ <tileset firstgid="5" name="tramp" tilewidth="58" tileheight="22">
+  <image source="img/trampoline/1.png" trans="ff00ff" width="58" height="22"/>
  </tileset>
  <objectgroup name="monster1" width="220" height="20">
   <object gid="1" x="592" y="282"/>
@@ -47,8 +47,8 @@
   <object gid="4" x="3236" y="163"/>
  </objectgroup>
  <objectgroup name="tramp" width="220" height="20">
-  <object gid="5" x="1049" y="289"/>
-  <object gid="5" x="2044" y="296"/>
-  <object gid="5" x="3045" y="305"/>
+  <object gid="5" x="1117" y="371"/>
+  <object gid="5" x="2030" y="371"/>
+  <object gid="5" x="2989" y="371"/>
  </objectgroup>
 </map>

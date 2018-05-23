@@ -3,34 +3,17 @@
 
 import pygame
 from pygame import *
+from GameObject import *
 
-Monster1_IMG = "./img/rock1.png" 
-Monster2_IMG = "./img/rock2.png" 
-Monster3_IMG = "./img/rock3.png" 
+class Monster_1(GameObject):
+    def __init__(self, x, y):
+        GameObject.__init__(self, x = x, y = y, width = 94, height = 107, image = image.load("./img/monster_1.png"))
 
-class Monster_1(sprite.Sprite):
+class Monster_2(GameObject):
+    def __init__(self, x, y):
+        GameObject.__init__(self, x = x, y = y, width = 65, height = 89, image = image.load("./img/monster_2.png"))
+
+class Monster_3(GameObject):
     def __init__(self, x, y):
         sprite.Sprite.__init__(self)
-        WIDTH = 94
-        HEIGHT = 107
-        self.image = Surface((WIDTH, HEIGHT))
-        self.image = image.load("./img/monster_1.png")
-        self.rect = Rect(x, y, WIDTH, HEIGHT) 
-
-class Monster_2(sprite.Sprite):
-    def __init__(self, x, y):
-        sprite.Sprite.__init__(self)
-        WIDTH = 65
-        HEIGHT = 89
-        self.image = Surface((WIDTH, HEIGHT))
-        self.image = image.load("./img/monster_2.png")
-        self.rect = Rect(x, y, WIDTH, HEIGHT) 
-
-class Monster_3(sprite.Sprite):
-    def __init__(self, x, y):
-        sprite.Sprite.__init__(self)
-        WIDTH = 87
-        HEIGHT = 102
-        self.image = Surface((WIDTH, HEIGHT))
-        self.image = image.load("./img/monster_3.png")
-        self.rect = Rect(x, y, WIDTH, HEIGHT) 
+        GameObject.__init__(self, x = x, y = y, width = 87, height = 102, image = image.load("./img/monster_3.png"))

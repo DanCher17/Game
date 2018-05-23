@@ -2,14 +2,9 @@
 # -*- coding: utf-8 -*-
 import pygame
 from pygame import *
+from GameObject import *
 
-WIDTH = 50
-HEIGHT = 50
-STAR_IMG = "./img/star.png" 
-
-class Star(sprite.Sprite):
+class Star(GameObject):
     def __init__(self, x, y):
-        sprite.Sprite.__init__(self)
-        self.image = Surface((WIDTH, HEIGHT))
-        self.image = image.load(STAR_IMG)
-        self.rect = Rect(x, y, WIDTH, HEIGHT)
+    	GameObject.__init__(self, x = x, y = y, width = 50, height = 50, image = image.load("./img/star.png"))
+
